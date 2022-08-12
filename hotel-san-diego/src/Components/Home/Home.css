@@ -1,1 +1,38 @@
+.home-container {
+    display: flex;
+    margin: 0 9rem;
+    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
 
+.content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-hero {
+    font-size: 1.5em;
+}
+
+.content-right {
+    width: 50%;
+    height: 700px;
+    overflow: hidden;
+    border-radius: .5em;
+    object-fit: cover;
+    position: relative;
+}
+
+.content-right img{
+    position: absolute;
+    top: -20rem;
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+.music-container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 9rem;
+    background-color: #d6d6d6;
+}
+
+.music-card {
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+    border-radius: .5em;
+    height: 500px;
+    gap: 1rem;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .1);
+}
+
+.card-thumbnail {
+    display: flex;
+    width: 400px;
+    overflow: hidden;
+    border-radius: .5em;
+}
+
+.card-thumbnail img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 1rem;
+    width: 100%;
+}
+
+.card-body p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
